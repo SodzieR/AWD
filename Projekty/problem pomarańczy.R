@@ -1,7 +1,7 @@
 
 set.seed(424242)
 
-library(plotrix)
+library(plotrix) # install.packages('plotrix')
 
 # Define orange 
 
@@ -10,7 +10,7 @@ r_miazsz = 2 # orange radius
 r_skorka = r_miazsz*0.1 # orange peel
 
 # plot
-plot(-2:2,-2:2,type="n",xlab="x",ylab="y",main="Problem skórki pomarañczy", asp = 1)
+plot(-2:2,-2:2,type="n",xlab="x",ylab="y",main="Problem skÃ³rki pomaraÃ±czy", asp = 1)
 draw.circle(0,0, r_miazsz)
 draw.circle(0,0, r_miazsz - r_skorka)
 
